@@ -1,0 +1,50 @@
+kind: source
+spec:
+  name: aws
+  path: cloudquery/aws
+  version: "v15.7.0"
+  tables:
+    -  aws_ec2_account_attributes
+    -  aws_ec2_byoip_cidrs
+    -  aws_ec2_customer_gateways
+    -  aws_ec2_dhcp_options
+    -  aws_ec2_egress_only_internet_gateways
+    -  aws_ec2_eips
+    -  aws_ec2_flow_logs
+    -  aws_ec2_hosts
+    -  aws_ec2_images
+    -  aws_ec2_image_launch_permissions
+    -  aws_ec2_instance_statuses
+    -  aws_ec2_instance_types
+    -  aws_ec2_instances
+    -  aws_ec2_internet_gateways
+    -  aws_ec2_key_pairs
+    -  aws_ec2_launch_templates
+    -  aws_ec2_launch_template_versions
+    -  aws_ec2_managed_prefix_lists
+    -  aws_ec2_nat_gateways
+    -  aws_ec2_network_acls
+    -  aws_ec2_network_interfaces
+    -  aws_ec2_regional_configs
+    -  aws_ec2_reserved_instances
+    -  aws_ec2_route_tables
+    -  aws_ec2_security_groups
+    -  aws_ec2_spot_fleet_requests
+    -  aws_ec2_spot_fleet_instances
+    -  aws_ec2_spot_instance_requests
+    -  aws_ec2_subnets
+    -  aws_ec2_transit_gateways
+    -  aws_ec2_transit_gateway_attachments
+    -  aws_ec2_transit_gateway_multicast_domains
+    -  aws_ec2_transit_gateway_peering_attachments
+    -  aws_ec2_transit_gateway_route_tables
+    -  aws_ec2_transit_gateway_vpc_attachments
+    -  aws_ec2_vpc_endpoint_service_configurations
+    -  aws_ec2_vpc_endpoint_services
+    -  aws_ec2_vpc_endpoint_service_permissions
+    -  aws_ec2_vpc_endpoints
+    -  aws_ec2_vpc_peering_connections
+    -  aws_ec2_vpcs
+    -  aws_ec2_vpn_gateways
+  
+  destinations: ["postgresql"]

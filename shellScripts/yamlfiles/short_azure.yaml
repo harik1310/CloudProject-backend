@@ -1,0 +1,31 @@
+kind: source
+spec:
+  # Source spec section
+  name: "azure"
+  path: "cloudquery/azure"
+  version: "v7.4.1"
+  destinations: ["postgresql"]
+  tables:
+    - azure_compute_cloud_services
+    - azure_compute_disk_accesses
+    - azure_compute_disk_encryption_sets
+    - azure_compute_disks
+    - azure_compute_galleries
+    - azure_compute_gallery_images
+    - azure_compute_gallery_image_versions
+    - azure_compute_images
+    - azure_compute_restore_point_collections
+    - azure_compute_skus
+    - azure_compute_snapshots
+    - azure_compute_ssh_public_keys
+    - azure_compute_virtual_machine_scale_sets
+    - azure_compute_virtual_machine_scale_set_network_interfaces
+    - azure_compute_virtual_machine_scale_set_vms
+    - azure_compute_virtual_machines
+    - azure_compute_virtual_machine_extensions
+    - azure_compute_virtual_machine_patch_assessments
+
+
+  spec:
+    # Azure Spec section
+    subscriptions: ["af5deb19-6807-49e8-a5e3-9778620a0df9"]

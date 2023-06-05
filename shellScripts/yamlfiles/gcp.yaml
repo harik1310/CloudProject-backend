@@ -1,0 +1,11 @@
+kind: source
+spec:
+  # Source spec section
+  name: "gcp"
+  path: "cloudquery/gcp"
+  version: "v8.4.5"
+  tables: ["*"]
+  destinations: ["postgresql"]
+
+  spec:
+    project_ids: ["myapp-c1cea"]

@@ -1,0 +1,11 @@
+kind: source
+spec:
+  # Source spec section
+  name: "azure"
+  path: "cloudquery/azure"
+  version: "v7.4.1"
+  destinations: ["postgresql"]
+  tables: ["*"]
+  spec:
+    # Azure Spec section
+    subscriptions: ["af5deb19-6807-49e8-a5e3-9778620a0df9"]

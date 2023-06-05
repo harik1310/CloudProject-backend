@@ -1,0 +1,10 @@
+kind: destination
+spec:
+  name: "postgresql"
+  registry: "github"
+  path: "cloudquery/postgresql"
+  version: "v3.0.2"
+
+  spec:
+    connection_string: "postgres://postgres:1310@localhost:5432/cq"
+
